@@ -1,0 +1,29 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootswatch Variables for your chosen theme
+@import "~bootswatch/dist/cyborg/_variables.scss";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Bootswatch theme main CSS files
+@import "~bootswatch/dist/cyborg/_bootswatch.scss";
+
+// Summernote
+@import '~summernote/dist/summernote-bs4.css';
+
+// Video.js
+//@import '~video.js/dist/video-js.css';
+
+// Video.js - skin
+@import '~videojs-sublime-skin/dist/videojs-sublime-skin.min.css';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
